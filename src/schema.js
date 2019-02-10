@@ -1,7 +1,7 @@
 const typeDefs = `
 type Message {
   id: Int!
-  from: String!
+  author: String
   body: String!
 }
 
@@ -10,7 +10,7 @@ type Query {
 }
 
 type Mutation {
-  sendMessage(from: String!, body: String!): Message
+  sendMessage(author: String, body: String!): Message
 }
 
 type Subscription {

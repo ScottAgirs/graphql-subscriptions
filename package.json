@@ -1,0 +1,23 @@
+{
+  "name": "graphql-subscriptions",
+  "version": "0.0.1",
+  "description": "A GraphQL-Yoga Chat App Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottAgirs/graphql-subscriptions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottAgirs/graphql-subscriptions/issues"
+  },
+  "homepage": "https://github.com/ScottAgirs/graphql-subscriptions#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  }
+}
